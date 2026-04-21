@@ -1,25 +1,43 @@
 export const fallbackProfiles = [
   {
     _id: "profile-1",
-    name: "Ananya",
-    role: "Textile Maker",
-    summary: "Ananya rediscovered confidence through patient craft work and shared routines.",
+    name: "Priya Deshmukh",
+    role: "Textile & Craft Maker",
+    summary: "Priya found purpose and confidence through patient textile work and daily structured routines at Mind Park.",
     fullStory:
-      "Supported sessions helped Ananya move from hesitation to leadership in colour selection and finishing. Each sale connected to her work strengthens livelihood, confidence, and daily structure.",
-    image:
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=900&q=80",
-    tags: ["Art therapy", "Confidence", "Routine"],
+      "After struggling with schizophrenia for years, Priya joined Mind Park Foundation's rehabilitation program. Through supported craft sessions, she gradually moved from hesitation to taking pride in her textile work. Today, she leads colour selection for new product lines and her handmade items are sold through the Mind Park Store. Each sale not only provides her with dignified income but also strengthens her daily structure and self-belief.",
+    image: "/makers/activity.png",
+    tags: ["Art therapy", "Confidence building", "Daily routine"],
   },
   {
     _id: "profile-2",
-    name: "Rahul",
-    role: "Cafe Trainee",
-    summary: "Rahul found community through preparing cafe snacks and greeting visitors.",
+    name: "Rajesh Kale",
+    role: "Mind Park Cafe Trainee",
+    summary: "Rajesh discovered community and purpose through cafe training, learning hospitality skills and building social connections.",
     fullStory:
-      "Cafe training gives Rahul space to practice memory cues, warm interactions, and hospitality skills. Orders from supporters keep that inclusive ecosystem alive.",
-    image:
-      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=80",
-    tags: ["Cafe initiative", "Hospitality", "Inclusion"],
+      "Living with dementia, Rajesh found it difficult to maintain social connections and daily routines. At Mind Park Cafe, he participates in hospitality training where he prepares snacks, greets visitors, and practices memory cues in a supportive environment. The cafe gives him a space to interact with the community, build confidence, and contribute meaningfully.",
+    image: "/makers/community.jpg",
+    tags: ["Cafe initiative", "Hospitality training", "Social inclusion"],
+  },
+  {
+    _id: "profile-3",
+    name: "Meera Patil",
+    role: "Woodcraft Artisan",
+    summary: "Meera uses careful woodworking steps to strengthen focus, build patience, and create beautiful handcrafted objects.",
+    fullStory:
+      "Diagnosed with a neurocognitive condition, Meera struggled with focus and self-worth. Through Mind Park's woodcraft program, she learned to channel her energy into creating beautiful wooden artifacts. From sanding to final finishing, each step represents her journey toward recovery. Her wooden frames and decorative pieces are now sold through the Mind Park Store, providing her with sustainable income and renewed purpose.",
+    image: "/makers/activity.png",
+    tags: ["Woodwork", "Skill building", "Rehabilitation"],
+  },
+  {
+    _id: "profile-4",
+    name: "Suresh Bhosale",
+    role: "Food Production Unit",
+    summary: "Suresh found stability and routine through Mind Park's food production unit, preparing traditional flour mixes with care.",
+    fullStory:
+      "After years of struggling with mental health challenges, Suresh joined Mind Park's food production program. Here, he learned to prepare traditional flour mixes like Thalipeeth Bhajni and Dhirde Peeth through guided, repeatable routines. The structured work environment helps him maintain focus and build confidence. Each packet he prepares is carefully weighed, sealed, and labeled - small steps that represent his journey toward recovery.",
+    image: "/makers/community.jpg",
+    tags: ["Food preparation", "Quality control", "Structured work"],
   },
 ];
 
