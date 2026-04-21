@@ -1,0 +1,16 @@
+{
+  "name": "mind-park-foundation",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "seed": "npm run seed --prefix server",
+    "build": "npm run build --prefix client",
+    "network-ip": "node get-network-ip.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
